@@ -1,0 +1,17 @@
+Snakes And Ladder Game
+This is a regular snakes and ladders game. Each player starts with square 1. Turn-wise each player throws a dice and based on the dice result, the player moves that many squares ahead. First one to square 100 wins, however, there will be preset squares which will be the snakes or ladders. Once you land on top of a snake you go down a few squares, and move up if you land  on the bottom of a ladder. 
+
+Problem Statement 
+
+Simulate this game using JAVA. You are free to choose any design/data structure/algorithms to build this game. But the end product should adhere to the following :
+
+Key points : 
+1) This is going to be a command-line game ( no GUI ) meaning all inputs will be through console. 
+2) Number of players can be 2-5. 
+3) These players can be humans or bots. But at least one human should be involved.
+4) The game begins by asking the number of human players and number of bots.
+5) Each human player is then asked their name and bots are named as BOT1, BOT2 and so on.
+6) Based on player names, lexicographically each player gets its turn. ( Ex - If Suresh, Ramesh, Abhishek and BOT1 are playing , the order of turns would be Abhishek, BOT1, Ramesh and Suresh)
+7) During the turn of each human player, the console should wait for the user to enter [y/n] to throw the dice. The player doesn't have any control on the throw result. 
+8) After each turn, the positions of each player should be displayed along with name of the person, who is going to throw next.
+9) The game gets over when any player reaches 100 and the winner name is displayed on the screen.
